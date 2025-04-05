@@ -254,7 +254,7 @@ function Home({ searchResults, loading }) {
 
       {/* Footer */}
       <footer className="bg-gray-800 text-gray-400 py-12 px-4">
-        <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           <div className="flex flex-col items-center md:items-start">
             <h3 className="text-2xl font-bold text-white mb-4">MovieHub</h3>
             <p className="text-center md:text-left mb-4">
