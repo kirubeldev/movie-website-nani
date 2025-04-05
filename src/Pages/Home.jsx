@@ -7,6 +7,8 @@ import "../App.css"
 function Home({ searchResults, setSearchResults, loading, error }) {
   const [popularMovies, setPopularMovies] = useState([]);
   const [featuredMovies, setFeaturedMovies] = useState([]);
+  const [error, setError] = useState(null);
+
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderRefs = useRef([]);
 
