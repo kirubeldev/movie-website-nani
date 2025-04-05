@@ -4,7 +4,7 @@ import MovieCard from "../Components/MovieCard";
 import { useMovieContext } from "../contexts/MovieContext";
 import "../App.css"
 
-function Home({ searchResults, setSearchResults, loading, error }) {
+function Home({ searchResults, loading }) {
   const [popularMovies, setPopularMovies] = useState([]);
   const [featuredMovies, setFeaturedMovies] = useState([]);
   const [error, setError] = useState(null);
